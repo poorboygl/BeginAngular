@@ -1,3 +1,10 @@
 <div class="test">
-    <p>Đây là component home</p>
+    <div *ngFor="let vehicle of vehicles">
+        <li>{{vehicle }}</li>
+    </div>
+    <input [(ngModel)]="name"><br>
+    <p>Bạn tên là {{name}}</p>
+    <select name="" id="">
+        <option *ngFor="let vehicle of vehicles">{{vehicle }} </option>
+    </select>
 </div>

@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-
+  public name='Huy Nguyen';
+  public age = 18;
+  public vehicles = ['Toyota', 'Honda', 'Ford','BMW']
   constructor() { }
 
   ngOnInit(): void {
+    
+
   }
 
 }
